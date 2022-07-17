@@ -21,7 +21,7 @@
 @import url(normalize.css);
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "PT Mono",Courier New,monospace;
   overflow: hidden;
 }
 
