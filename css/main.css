@@ -1189,6 +1189,23 @@ footer .social li a {
   margin-bottom: 30px;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.item-1{
+  grid-column: 1 / span 2;
+}
+
+.item-3{
+  grid-column: 2;
+  grid-row: 2 / span 2;
+}
+
 .portfolio_filter {
   margin: 0 auto;
   display: inline-block;
@@ -1271,7 +1288,7 @@ footer .social li a {
 
 .lightbox-gallery .image {
   margin-bottom: 60px;
-  display: block;
+  display: grid;
   overflow: hidden;
   transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
