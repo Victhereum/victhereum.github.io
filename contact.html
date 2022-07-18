@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!-- Font icons -->
     <link rel="stylesheet" href="icon-fonts/flat-icon/flaticon.css" />
@@ -121,12 +122,10 @@
                       </div>
                       <div class="contact-info social">
                         <p class="little-p info-title">Follow us</p>
-                        <a href="contact.html#">Facebook.</a>
-                        <a href="contact.html#">Twitter.</a>
-                        <a href="contact.html#">Behance.</a>
-                        <a href="contact.html#">Dribbble.</a>
-                        <a href="contact.html#">Instagram.</a>
-                        <a href="contact.html#">Linkedin.</a>
+                        <a href="https://www.facebook.com/victor.isaac.7923030" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/IsaacVictron" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/in/victor-isaac" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Victhereum" target="_blank"><i class="fab fa-github"></i></a>
                       </div>
                     </div>
                     <div
@@ -140,10 +139,10 @@
                         <div class="spacer-10"></div>
                         <div id="message"></div>
                         <form
-                          method="post"
+                          method="POST"
                           name="contactform"
-                          action="https://script.google.com/macros/s/AKfycbwc-IECuMV_0AlqasJI3nG54dzsHlDzYg8eMVIOyhuTgbGeUOq_6kjK_x_Gfud4z5OL/exec"
-                          id="contactform"
+                          action="https://script.google.com/macros/s/AKfycbzQmN6MPLMVrjgP9QXDNK7FX1QTTtfab0yHRr31aRhVH3xyeyb0HBi6_0-rOlVgp0zK/exec"
+                          id="gform"
                           class="row"
                           autocomplete="off"
                         >
@@ -155,7 +154,7 @@
                               name="name"
                               type="text"
                               placeholder="Name"
-                              id="name"
+                              id="Name"
                             />
                           </div>
                           <!-- email -->
@@ -165,7 +164,7 @@
                               name="email"
                               type="text"
                               placeholder="Email"
-                              id="email"
+                              id="Email"
                             />
                           </div>
                           <!-- company -->
@@ -175,23 +174,26 @@
                               name="company"
                               type="text"
                               placeholder="Company"
-                              id="company"
+                              id="Company"
                             />
                           </div>
                           <!-- about project -->
                           <div class="col-xl-12 contact-bar">
                             <textarea
                               class="inp"
-                              name="project"
-                              id="comments"
+                              name="comments"
+                              id="Project_Comments"
                               rows="3"
                               placeholder="Tell me about your project"
                             ></textarea>
                           </div>
+                          <!-- reCaptcha -->
+                          <div class="g-recaptcha" data-sitekey="6LctS_0gAAAAAOpzjCib9cB3Ye7dzo6k-Bm9JPfX"></div>
                           <!-- button -->
                           <div class="form-btn col-xl-12 contact-bar">
-                            <input
-                              class="site-btn"
+                            <input class="g-recaptcha site-btn" 
+                            data-sitekey="6LctS_0gAAAAAOpzjCib9cB3Ye7dzo6k-Bm9JPfX" 
+                            data-callback='onSubmit' 
                               type="submit"
                               value="Send"
                             />
@@ -242,5 +244,10 @@
     ></script>
     <script src="js/map.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
   </body>
 </html>
