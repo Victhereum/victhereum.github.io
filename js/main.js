@@ -482,7 +482,7 @@ function testimonialSlider(){
     // var contactName = document.forms["contactform"]["name"].value;
     // console.log(contactName)
     if (grecaptcha.getResponse() == ""){
-      alert("You can't proceed!");
+      alert("Please check reCAPTCHA, thanks");
       } else {
           alert("Thank you");
     e.innerHTML = "";
