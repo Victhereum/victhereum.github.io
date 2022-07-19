@@ -484,10 +484,9 @@ function testimonialSlider(){
     if (grecaptcha.getResponse() == ""){
       alert("Please check reCAPTCHA, thanks");
       } else {
-          alert("Thank you");
-    e.innerHTML = "";
-    msg.innerHTML = `Recieved!!! <br> Your message has been recieved, we would reach out to you soon.<br>
-     Much Love, Thanks`
+        e.innerHTML = "";
+        msg.innerHTML = `Recieved!!! <br> Your message has been recieved, we would reach out to you soon.<br>
+        Much Love, Thanks`
       }
 }
 
