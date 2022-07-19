@@ -85,7 +85,7 @@
                       <li><a href="index.html">Home</a></li>
                       <li><a href="resume.html">Resume</a></li>
                       <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="blog.html">Blog</a></li>
+                      <!-- <li><a href="blog.html">Blog</a></li> -->
                       <li><a class="active" href="contact.html">Contact</a></li>
                     </ul>
                   </nav>
@@ -96,13 +96,13 @@
                   <h1 class="underline-title">GET IN TOUCH</h1>
                   <div class="spacer-60"></div>
                   <div class="row">
-                    <!-- Map -->
+                    <!-- Map
                     <div
                       id="map"
                       class="map scale-animation"
                       data-delay="1"
                       data-duration="2"
-                    ></div>
+                    ></div> -->
 
                     <div class="spacer-60"></div>
                     <!-- contact info -->
@@ -112,6 +112,9 @@
                         <a href="mailto:tamsvictorisaac@outlook.com"
                           >tamsvictorisaac@outlook.com</a
                         >
+                        <a href="mailto:tamsvictorisaac@gmail.com"
+                        >tamsvictorisaac@gmail.com</a
+                      >
                       </div>
                       <div class="contact-info address">
                         <p class="little-p info-title">My office</p>
@@ -135,7 +138,7 @@
                     >
                       <!-- form -->
                       <div id="contact-formular">
-                        <p class="little-p info-title">Or fill this form</p>
+                        <p class="little-p info-title" id="message">Or fill this form</p>
                         <div class="spacer-10"></div>
                         <div id="message"></div>
                         <form
@@ -155,6 +158,7 @@
                               type="text"
                               placeholder="Name"
                               id="Name"
+                              required
                             />
                           </div>
                           <!-- email -->
@@ -165,6 +169,7 @@
                               type="text"
                               placeholder="Email"
                               id="Email"
+                              required
                             />
                           </div>
                           <!-- company -->
@@ -175,6 +180,7 @@
                               type="text"
                               placeholder="Company"
                               id="Company"
+                              required
                             />
                           </div>
                           <!-- about project -->
@@ -185,13 +191,14 @@
                               id="Project_Comments"
                               rows="3"
                               placeholder="Tell me about your project"
+                              required
                             ></textarea>
                           </div>
                           <!-- reCaptcha -->
                           <div class="g-recaptcha" data-sitekey="6LfkiP0gAAAAAB_lIDNiarmcwK-WS-zS8MhMqzu5"></div>
                           <!-- button -->
                           <div class="form-btn col-xl-12 contact-bar">
-                            <input class="site-btn"  
+                            <input class="site-btn" onclick="deleteChild()"
                               type="submit"
                               value="Send"
                             />
@@ -214,14 +221,16 @@
                   </div>
                   <ul class="social">
                     <li>
-                      <a target="_blank" href="contact.html#">Facebook</a>
-                    </li>
-                    <li><a target="_blank" href="contact.html#">Twitter</a></li>
-                    <li>
-                      <a target="_blank" href="contact.html#">Instagram</a>
+                    <a href="https://www.facebook.com/victor.isaac.7923030" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" href="contact.html#">Dribbble</a>
+                    <a href="https://twitter.com/IsaacVictron" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                    <a href="https://linkedin.com/in/victor-isaac" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                    <a href="https://github.com/Victhereum" target="_blank"><i class="fab fa-github"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -236,16 +245,19 @@
     <!-- Javascripts -->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
-    <script
+    <!-- <script
       type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3gqyHylICdokv-P1q2WtRihCFhiFnm_U&sensor=false"
-    ></script>
-    <script src="js/map.js"></script>
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQP0UqzZZO904o0feRjxhKUC_TiH1HKpo&callback=initMap"
+    ></script> -->
+    <!-- <script src="js/map.js"></script> -->
     <script src="js/main.js"></script>
     <script>
       function onSubmit(token) {
         document.getElementById("gform").submit();
       }
+    </script>
+    <script>
+
     </script>
   </body>
 </html>

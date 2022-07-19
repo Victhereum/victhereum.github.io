@@ -27,7 +27,7 @@ function ajaxLoad(){
   videoPlay();
   charts();
   isotope();
-  contactmap();
+  // contactmap();
   setTimeout(() => {
     scrollAnimation();
   }, 1000);
@@ -472,7 +472,23 @@ function testimonialSlider(){
   
   }//End ContactForm
 
-
-
+  // Normalize contact form
+  // Precedence 1. Form fields 2. reCaptcha 3. Succes message
+  function deleteChild() {
+    var e = document.getElementById("gform");
+    var msg = document.getElementById("message");
+    // var form = document.getElementsByName("form")
+    // // Loop through the form
+    // var contactName = document.forms["contactform"]["name"].value;
+    // console.log(contactName)
+    if (grecaptcha.getResponse() == ""){
+      alert("You can't proceed!");
+      } else {
+          alert("Thank you");
+    e.innerHTML = "";
+    msg.innerHTML = `Recieved!!! <br> Your message has been recieved, we would reach out to you soon.<br>
+     Much Love, Thanks`
+      }
+}
 
 
