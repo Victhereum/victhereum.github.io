@@ -17,7 +17,7 @@ var options = {
   },
   brandSetting: {
     brandName: "Victhereum",
-    brandSubTitle: "I build things for the web",
+    brandSubTitle: "Python Backend Engineer | I can design and build any backend infra",
     brandImg: "",
     welcomeText:
       "Hi there!\nYour project requires the best hands and mind, \n let's talk about it",
@@ -26,7 +26,7 @@ var options = {
     ctaText: "Let's build",
     borderRadius: "25",
     autoShow: false,
-    phoneNumber: "2348124182627",
+    phoneNumber: "2348110258156",
   },
 };
 s.onload = function () {
