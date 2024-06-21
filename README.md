@@ -21,9 +21,9 @@ I'm a an enthusiastic and passionate programmer with over 2 years of experience 
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a> 
     <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/> </a> 
-    <a style="padding-right:8px;" href="https://djangoproject.com" target="_blank"> <img src="https://img.icons8.com/material-outlined/48/ffb400/django.png"/> </a> 
-    <a href="https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0" target="_blank"> <img src="https://img.icons8.com/fluency-systems-filled/48/ffb400/asp.png" alt="asp.net" width="48" height="48"/> </a> 
-    <a href="https://docs.soliditylang.org/en/v0.8.15/" target="_blank"> <img src="https://img.icons8.com/ios-filled/48/ffb400/solidity.png"/> </a>    
+    <a style="padding-right:8px;" href="https://djangoproject.com" target="_blank"> <img src="https://img.icons8.com/material-outlined/48/e6ff00/django.png"/> </a> 
+    <a href="https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0" target="_blank"> <img src="https://img.icons8.com/fluency-systems-filled/48/e6ff00/asp.png" alt="asp.net" width="48" height="48"/> </a> 
+    <a href="https://docs.soliditylang.org/en/v0.8.15/" target="_blank"> <img src="https://img.icons8.com/ios-filled/48/e6ff00/solidity.png"/> </a>    
     <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png"/> </a> 
 </p>
 
