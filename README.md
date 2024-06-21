@@ -1,6 +1,6 @@
 ### <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Victor Isaac</h1>
 
-<h1 align="center"><a href="#"><img width="200" height="200" src="./images/profile-loader.jpg"/></a></h1>
+<h1 align="center"><a href="#"><img width="200" height="200" src="./images/profile-loader.png"/></a></h1>
 
 ## 🙋‍♂️ About Me
 
