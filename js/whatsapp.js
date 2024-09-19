@@ -17,7 +17,7 @@ var options = {
   },
   brandSetting: {
     brandName: "Victhereum",
-    brandSubTitle: "Python Backend Engineer | I can design and build any backend infra",
+    brandSubTitle: "Python Backend Engineer | Celery | Django | DRF | Website & API Development | API Integration | I can design and build any backend infra",
     brandImg: "",
     welcomeText:
       "Hi there!\nYour project requires the best hands and mind, \n let's talk about it",
